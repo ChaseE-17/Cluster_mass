@@ -10,6 +10,9 @@
    env/
    .venv/
    
+   # Plots
+   plots/*
+
    # OS-specific junk
    .DS_Store          # macOS
    Thumbs.db          # Windows
