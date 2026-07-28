@@ -17,3 +17,5 @@
    .DS_Store          # macOS
    Thumbs.db          # Windows
    desktop.ini
+.DS_Store
+scatter/
