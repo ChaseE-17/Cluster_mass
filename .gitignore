@@ -1,0 +1,16 @@
+# Python
+   __pycache__/
+   *.pyc
+   *.pyo
+   .ipynb_checkpoints/
+   
+   # Virtual environments
+   scatter/
+   venv/
+   env/
+   .venv/
+   
+   # OS-specific junk
+   .DS_Store          # macOS
+   Thumbs.db          # Windows
+   desktop.ini
