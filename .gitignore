@@ -1,21 +1,26 @@
 # Python
-   __pycache__/
-   *.pyc
-   *.pyo
-   .ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
    
-   # Virtual environments
-   scatter/
-   venv/
-   env/
-   .venv/
+# Virtual environments
+scatter/
+venv/
+env/
+.venv/
    
-   # Plots
-   plots/*
+# Plots
+plots/*
 
    # OS-specific junk
-   .DS_Store          # macOS
-   Thumbs.db          # Windows
-   desktop.ini
-.DS_Store
-scatter/
+.DS_Store          # macOS
+**/.DS_Store
+Thumbs.db          # Windows
+desktop.ini
+
+# Outputs folders
+MTNG_data/**/outputs/
+
+# ARCHIVE folder
+ARCHIVE/
