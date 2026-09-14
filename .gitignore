@@ -24,3 +24,9 @@ MTNG_data/**/outputs/
 
 # ARCHIVE folder
 ARCHIVE/
+archive/
+
+# Notebook run outputs / manual backups (large, regenerable)
+manual/outputs/
+*.ipynb.bak
+*.ipynb.bak2
