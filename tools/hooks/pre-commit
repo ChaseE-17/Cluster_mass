@@ -1,0 +1,6 @@
+#!/bin/sh
+# Warn-only documentation consistency check. Prints a punch-list; never blocks a commit.
+# Enable once per clone:  git config core.hooksPath tools/hooks
+root="$(git rev-parse --show-toplevel)"
+python3 "$root/tools/check_docs.py" || true
+exit 0
